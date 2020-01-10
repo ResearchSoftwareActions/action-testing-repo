@@ -9,4 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: ResearchSoftwareActions/CleanNotebookAction@dev
+    - uses: ResearchSoftwareActions/CleanNotebookAction@1.0
+      with:
+        disable-checks: outputs,execution_count
